@@ -1,0 +1,31 @@
+import os
+import time
+from termcolor import colored, cprint
+
+os.system('cls')
+
+time.sleep(3)
+cprint("\t\t\t HAPPY BIRTHDAY ", 'blue', 'on_light_magenta')
+print(" ")
+for i in range(1):
+    cprint("\t\t\t\t ", 'blue', 'on_blue')
+
+for i in range(2):
+    cprint("\t\t\t\t ", 'blue', 'on_light_cyan')
+
+for i in range(1):
+    cprint("\t\t\t~~~~~~~~~~~~~~~~~", 'blue', 'on_light_magenta')
+for i in range(3):
+    cprint("\t\t\t                 ", 'blue', 'on_light_cyan')
+
+for i in range(1):
+    cprint("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'blue', 'on_light_magenta')
+for i in range(4):
+    cprint("\t\t                                 ", 'blue', 'on_light_cyan')
+
+for i in range(1):
+    cprint("\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'blue', 'on_light_magenta')
+for i in range(5):
+    cprint("\t                                                 ", 'blue', 'on_blue')
+
+print("")
