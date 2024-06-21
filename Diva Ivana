@@ -1,0 +1,24 @@
+nama = [ "Mia" ,"Mita","Momo","Mala","Mega","Mira","Misha","Meri","Maria","Misya"]
+nilai = [[78, 89, 87, 70, 90, 89, 88, 56, 67, 66] ,[ 80, 89, 88, 96, 83, 74, 95, 88, 86, 69]]
+
+#hitung rata-rata 
+rata2 =[]
+for i in range (len(nama)) : 
+    rata2.append((nilai[0][i] + nilai[1][1]/2))
+
+#tampillkan nama dan rata rata 
+print("|| {:<10} | {:>13} ||".format("Nama","Nilai rata rata"))
+print("-"*34)
+for i in range (len(nama)):
+    print("|| {:<10} || {:>12.2f} ||".format(nama[i],rata2[i]))
+
+#hitung nilai rata rata tertinggi 
+maks = 0 
+indeks  = 0 
+for i in range (len(rata2)):
+    if maks < rata2[i]:
+        maks = rata2 [i]
+        indeks = i 
+
+#tampilkan nama mahasiswa 
+print (f"Mahasiswi dengan nilai rata-rata tertinggi dikelas adalah {nama[indeks]}")
